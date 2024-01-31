@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using MangXaHoi.Models.DbContext;
 using Microsoft.EntityFrameworkCore;
 
-namespace MangXaHoi.Models.DbContext;
+namespace MangXaHoi.Models;
 
 public partial class SocialNetworkContext : Microsoft.EntityFrameworkCore.DbContext
 {
